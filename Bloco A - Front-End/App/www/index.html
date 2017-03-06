@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-br" ng-app="visitaRio">
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Raysa Dutra">
+	<title>Visita-Rio</title>
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="msapplication-tap-highlight" content="no" />
+	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1"/>
+	
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/index.css" />
+
+</head>
+<body>
+	<div ng-controller="appController">
+
+		<div ng-switch on="page">
+			<!-- Primeira Página home -->
+			<div ng-switch-when="home" id="home">
+				<div class="jumbotron"> 
+					<h1>Bem-Vindo ao Visita Rio</h1>
+				</div>
+				<p><a ng-click="mudaPage('pesquisa')" class="btn btn-success btn-lg btn-block"><i class="fontelico-emo-thumbsup"></i> Comece a Procurar</a></p>
+			</div>
+			
+			<!-- Segunda Página seleção de pesquisa -->
+			<div ng-switch-when="pesquisa" class="panel panel-success">
+				<div class="panel-heading">
+					<h1 class="panel-title">Pesquisa</h1>
+				</div>
+				<div class="panel-body">
+					<p class="bigthing">Escolha o que deseja Procurar</p>
+				</div>
+				<ul>
+					<li><p><a ng-click="mudaPage('banheiro')" class="btn btn-warning btn-lg btn-block"><i class="maki-toilet"></i> Banheiros</a></p></li>
+					<li><p><a ng-click="mudaPage('delegacia')" class="btn btn-primary btn-lg btn-block"><i class="maki-police"></i> Delegacias</a></p></li>
+					<li><p><a ng-click="mudaPage('evento')" class="btn btn-warning btn-lg btn-block"><i class="maki-theatre"></i> Eventos</a></p></li>
+					<li><p><a ng-click="mudaPage('hospitais')" class="btn btn-primary btn-lg btn-block" ><i class="maki-hospital"></i> Hospitais</a></p></li>
+					<li><p><a ng-click="mudaPage('comida')" class="btn btn-warning btn-lg btn-block" ><i class="maki-restaurant"></i> Onde Comer</a></p></li>
+					<li><p><a ng-click="mudaPage('dormir')" class="btn btn-primary btn-lg btn-block" ><i class="maki-lodging"></i> Onde Dormir</a></p></li>
+					<li><p><a ng-click="mudaPage('pontosturi')" class="btn btn-warning btn-lg btn-block" ><i class="fontawesome-camera-retro"></i> Pontos Turísticos</p></a></li>
+					<li><p><a ng-click="mudaPage('praia')" class="btn btn-primary btn-lg btn-block" ><i class="fontelico-emo-sunglasses"></i> Praias</a></p></li>
+				</ul>
+			</div>
+
+			<!-- Páginas seleção de pesquisa -->
+			<div id="banheiro"  ng-switch-when="banheiro">
+				<div class="page-header">
+					<h2>Banheiros</h2>
+					<p><a ng-click="mudaPage('pesquisa')" class="btn btn-success btn-lg btn-block"><i class="fontawesome-arrow-left"></i> Voltar</a></p>
+				</div>  
+				<form>
+					<fieldset>
+						<legend>Filtro de Busca</legend>
+						<div class="input-group">
+							<label id="banlocal">Qual referência você está?</label>
+							<input type="text"  ng-model="filtroBan" id="banlocal" placeholder="Digite o referência"/>
+						</div>
+					</fieldset>
+				</form>
+				<div>
+					<p><a class="btn btn-success btn-lg btn-block" ng-click="mudaPage('Mab')"> Mapa</a></p>
+					<h1>Locais</h1>
+					<div id="result" ng-repeat="banheiro in banheiros | filter:{referencia:filtroBan}">					
+						<h3>{{banheiro.id}}- {{banheiro.endereco}} {{banheiro.referencia}}</h3>
+					</div>
+				</div>
+			</div>  
+
+			<div id="delegacia"  ng-switch-when="delegacia">
+				<div class="page-header">
+					<h2>Delegacia</h2>
+					<p><a ng-click="mudaPage('pesquisa')" class="btn btn-success btn-lg btn-block"><i class="fontawesome-arrow-left"></i> Voltar</a></p>
+				</div>  
+				<form>
+					<fieldset>
+						<legend>Filtro de Busca</legend>
+						<div class="input-group">
+							<label id="deleregi">DP</label>
+							<input  ng-model="filtroDel" type="text" id="deleregi" placeholder="Qual DP você procura?"/>
+						</div>
+						<div class="input-group">
+							<label id="deleregi">Endereço</label>
+							<input  ng-model="filtroDel2" type="text" id="deleregi" placeholder="Qual endereço você procura?"/>
+						</div>
+					</fieldset>
+				</form>
+				
+				<div>
+					<p><a class="btn btn-success btn-lg btn-block" ng-click="mudaPage('Mab')"> Mapa</a></p>
+					<h1>Locais</h1>
+					<div id="result" ng-repeat="delegacia in delegacias  | filter:{nome:filtroDel,endereco:filtroDel2}">
+						<h3>{{delegacia.id}} - {{delegacia.nome}}</h3>
+						<p>{{delegacia.endereco}}</p>
+						<p>{{delegacia.telefone}}</p>
+					</div>
+				</div>
+			</div> 
+
+			<div id="evento"  ng-switch-when="evento">
+				<div class="page-header">
+					<h2>Evento</h2>
+					<p><a ng-click="mudaPage('pesquisa')" class="btn btn-success btn-lg btn-block"><i class="fontawesome-arrow-left"></i> Voltar</a></p>
+				</div>  
+				<form>
+					<fieldset>
+						<legend>Filtro de Busca</legend>
+						<div class="input-group">
+							<label id="eventotip">Informações sobre os eventos</label>
+							<input ng-model="filtroEvent" type="text" id="eventotip" placeholder="Procure por qualquer informação do evento"/>
+						</div>
+					</fieldset>
+				</form>
+				<div>
+					<p><a class="btn btn-success btn-lg btn-block" ng-click="mudaPage('Mab')"> Mapa</a></p>
+					<h1>Locais</h1>
+					<div id="result" ng-repeat="evento in eventos | filter:filtroEvent">					
+						<h3>{{evento.id}} - {{evento.nome}} </h3>
+						<p>{{evento.data}}</p>
+						<p>{{evento.descricao}}</p>
+						<p>{{evento.endereco}}</p>
+					</div>
+				</div>
+			</div>
+
+			<div id="hospitais"  ng-switch-when="hospitais">
+				<div class="page-header">
+					<h2>Hospital</h2>
+					<p><a ng-click="mudaPage('pesquisa')" class="btn btn-success btn-lg btn-block"><i class="fontawesome-arrow-left"></i> Voltar</a></p>
+				</div>  
+				<form>
+					<fieldset>
+						<legend>Filtro de Busca</legend>
+						<div class="input-group">
+							<label id="hospnome">Nome</label>
+							<input type="text" ng-model="filtroHosp" id="hospnome" placeholder="Nome"/>
+						</div>
+						<div class="input-group">
+							<label id="hospnome">Especialidade</label>
+							<input type="text" ng-model="filtroHosp2" id="hospnome" placeholder="Especialidade"/>
+						</div>
+					</fieldset>
+				</form>
+				<div>
+					<p><a class="btn btn-success btn-lg btn-block" ng-click="mudaPage('Mab')"> Mapa</a></p>
+					<h1>Locais</h1>
+					<div id="result" ng-repeat="hospital in hospitals | filter:{nome:filtroHosp,especialidade:filtroHosp2}">		
+						<h3>{{hospital.id}} - {{hospital.nome}}</h3> 
+						<p>{{hospital.especialidade}}</p>
+						<p>{{hospital.contato}}</p>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Json criado pelo Paulo Leonnardo v -->
+			<div id="comida"  ng-switch-when="comida">
+				<div class="page-header">
+					<h2>Onde Comer</h2>
+					<p><a ng-click="mudaPage('pesquisa')" class="btn btn-success btn-lg btn-block"><i class="fontawesome-arrow-left"></i> Voltar</a></p>
+				</div>  
+
+				<form>
+					<fieldset>
+						<legend>Filtro de Busca</legend>
+						<div class="input-group">
+							<label id="comidanome">Busque o que deseja de Restaurante</label>
+							<input type="text" id="comidanome" placeholder="Digite o procura de um restaurante" ng-model="filtroRest"/>
+						</div>
+					</fieldset>
+				</form>
+				<div>
+					<p><a class="btn btn-success btn-lg btn-block" ng-click="mudaPage('Mab')"> Mapa</a></p>
+					<h1>Locais</h1>
+					<div id="result" ng-repeat="come in comes | filter:filtroRest">				
+						<h3>{{come.id}}-{{come.nome}}</h3>
+						<p>{{come.endereco}}</p>
+						<p>{{come.telefone}}</p>
+						<p>{{come.especialidade}}</p>
+					</div>
+				</div>
+			</div>
+
+			<div id="dormir"  ng-switch-when="dormir">
+				<div class="page-header">
+					<h2>Onde Dormir</h2>
+					<p><a ng-click="mudaPage('pesquisa')" class="btn btn-success btn-lg btn-block"><i class="fontawesome-arrow-left"></i> Voltar</a></p>
+				</div>  
+				<form>
+					<fieldset>
+						<legend>Filtro de Busca</legend>
+						<div class="input-group">
+							<label id="hotelnome">Nome do Hotel</label>
+							<input type="text"ng-model="filtroHotel" id="hotelnome" placeholder="Digite o nome do hotel"/>
+						</div>             
+					</fieldset>
+				</form>
+				<div>
+					<p><a class="btn btn-success btn-lg btn-block" ng-click="mudaPage('Mab')"> Mapa</a></p>
+					<h1>Locais</h1>
+					<div id="result" ng-repeat="dormi in dormis | filter:filtroHotel">		
+						<h3>{{dormi.id}} - {{dormi.nome}}</h3>
+						<p>{{dormi.endereco}}</p>
+						<p>{{dormi.descricao}}</p>
+						<p>{{dormi.telefone}}</p>
+						<p>{{dormi.categoria}}</p>
+
+					</div>
+				</div>
+			</div>
+			<!-- Json criado pelo Paulo Leonnardo ^-->
+			
+			<div id="pontosturi"  ng-switch-when="pontosturi">
+				<div class="page-header">
+					<h2>Pontos Turisticos</h2>
+					<p><a ng-click="mudaPage('pesquisa')" class="btn btn-success btn-lg btn-block"><i class="fontawesome-arrow-left"></i> Voltar</a></p>
+				</div>
+				<form>
+					<fieldset>
+						<legend>Filtro de Busca</legend>
+						<div class="input-group">
+							<label id="pontonome">Procure o ponto turistico</label>
+							<input type="text" id="pontonome" ng-model="filtroPont" placeholder="Digite o ponto turistico"/>
+						</div>     
+					</fieldset>
+				</form>
+				<div>
+					<p><a class="btn btn-success btn-lg btn-block" ng-click="mudaPage('Mab')"> Mapa</a></p>
+					<h1>Locais</h1>
+					<div id="result" ng-repeat="turist in turists | filter:{title:filtroPont}">					
+						<h3>{{turist.id}}- {{turist.title}}</h3>
+						<p>{{turist.body}}</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- Json criado pelo Paulo Leonnardo v -->
+			<div id="praia"  ng-switch-when="praia">
+				<div class="page-header">
+					<h2>Praia</h2>
+					<p><a ng-click="mudaPage('pesquisa')" class="btn btn-success btn-lg btn-block"><i class="fontawesome-arrow-left"></i> Voltar</a></p>
+				</div>
+				<form>
+					<fieldset>
+						<legend>Filtro de Busca</legend>
+						<div class="input-group">
+							<label id="nomepraia">Local</label>
+							<input type="text" id="nomepraia" ng-model="filtroPnome" placeholder="Digite o local"/>
+						</div>
+					</fieldset>
+				</form>
+				<div>
+					<p><a class="btn btn-success btn-lg btn-block" ng-click="mudaPage('Mab')"> Mapa</a></p>
+					<h1>Locais</h1>
+					<div id="result" ng-repeat="praia in praias | filter:{nome:filtroPnome}">				
+						<h3>{{praia.id}}- {{praia.nome}}</h3>
+						<p>{{praia.endereco}}</p>
+						<p>{{praia.descricao}}</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- mapa -->
+			<div id="mapaHeader" ng-switch-when="Mab">
+				<header>
+					<h2 id="#mgs"><i class="iconicfill-map-pin-fill"></i> Mapa</h2>
+					<p ng-click="mudaPage('pesquisa')"><a class="btn btn-danger btn-lg" class="close"><i class="fontawesome-remove" id="exit"></i></a></p>
+				</header>
+			</div>
+		</div> 
+		
+		<div id="map" ng-show="mostraMab"></div>
+		
+	</div> 
+	<script type="text/javascript" src="cordova.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript" src="js/Controller/MyCtrller.js"></script>
+	<script src="http://maps.googleapis.com/maps/api/js"></script>
+	<script type="text/javascript" src="js/markerclusterer.js"></script>
+</body>
+</html>
