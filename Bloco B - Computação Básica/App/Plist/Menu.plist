@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>OptionsMenu</key>
+	<array>
+		<string>Places</string>
+		<string>Safety Recommendations</string>
+		<string>Health Alerts</string>
+		<string>Expressions That can Help</string>
+		<string>About</string>
+	</array>
+</dict>
+</plist>

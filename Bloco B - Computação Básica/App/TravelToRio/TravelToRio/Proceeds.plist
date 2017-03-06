@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UsefulNumbers</key>
+	<array>
+		<string>Brazil - Code: 55</string>
+		<string>Rio de Janeiro - Code(Capital City): 21  </string>
+		<string>City of Rio de Janeiro: 1746</string>
+		<string>Barcas SA.: 3559-5000</string>
+		<string>Jacarepaguá Airport : 2432-7070</string>
+		<string>International Airport: 3398-5050 | 3398-4526 | 3398-4527</string>
+		<string>Santos Dumont Airport: 3814-7070</string>
+		<string>Crimes Stoppers : 2253-1177</string>
+		<string>Report Sex Exploitation of Children : 100 (HOTLINE)</string>
+	</array>
+	<key>EmergencyNumbers</key>
+	<array>
+		<string>Military Police of the State of Rio de Janeiro (PMERJ):190</string>
+		<string>Federal Highway Police (PRF): 191</string>
+		<string>Ambulance (SAMU): 192</string>
+		<string>Military Fire Brigade of the State of Rio de Janeiro (CBMERJ) : 193</string>
+		<string>DEAT(Special Police Unit for Tourism Support): 2332-2924</string>
+		<string>BPTur Novo Rio Bus Station: 3213-1810</string>
+		<string>BPTur International Airport: 3398-4150</string>
+		<string>BPTur Santos Dumont Airport: 3814-7888</string>
+		<string>BPTur Operations Room: 2332-7949</string>
+		<string>Federal Police Department: 2203-4000</string>
+	</array>
+	<key>Health</key>
+	<array>
+		<string>Hydrate yourself.</string>
+		<string>Use sunscreen when exposed to the sun.</string>
+		<string>Use light clothing suitable for tropical countries.</string>
+		<string>Use Repellent to previne Aedes Aegypti tramnsmitting Zica,Dengue and Chikungunya.</string>
+		<string>Always wash your hands to previne: Flu H1N1 and Zica.</string>
+		<string>Always use condoms.</string>
+	</array>
+	<key>Incidents</key>
+	<array>
+		<string>Ask for help by calling 190, which is the emergency for the Military Police of Rio de Janeiro.</string>
+		<string>Do not react, do not make sudden movements, keep calm.</string>
+		<string>Always look for the support of public safety officers who will be strategically positioned to best serve you.</string>
+		<string>Security officers and the police should aways be your reference.</string>
+		<string>Foreign tourists can go to the  nearest police station, but for a greater convinience, go to the Special Police Unit for Tourism Support (DEAT)- Tel.:2332-2924</string>
+		<string>Civil, the military police and also the municipal Guard have specialized services for tourist.</string>
+		<string>Diplomatic missions can also be a good option for you to learn the best pratices and measures to be taken in case of incidents, simply contact: www.itamaraty.gov.br/temas/embaixadas-e-consulados</string>
+	</array>
+</dict>
+</plist>
