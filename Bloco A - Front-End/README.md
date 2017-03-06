@@ -44,4 +44,4 @@
 
 #### I dedicate to my friends, my family, my dog Jorge and my future husband. <3
 
-##### The application is inside the "app" folder, and the documentation in the power point file "Project.pptx", it was used to present this work and show the documentation made during the block.
+##### The application is inside the "app" folder, and the documentation in the power point file "Projeto.pptx", it was used to present this work and show the documentation made during the block.
