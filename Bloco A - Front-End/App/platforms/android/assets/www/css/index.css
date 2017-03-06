@@ -1,0 +1,119 @@
+/*"Icones" no site*/
+
+@import url(http://weloveiconfonts.com/api/?family=fontawesome|fontelico|iconicfill|maki);
+/* fontawesome */
+[class*="fontawesome-"]:before 
+{
+  font-family: 'FontAwesome', sans-serif;
+  font-size: 20px;
+  color: #2B323A;
+  
+}
+
+/* fontelico */
+[class*="fontelico-"]:before 
+{
+  font-family: 'fontelico', sans-serif;
+  font-size: 20px;
+  color: #2B323A;
+}
+
+/* iconicfill */
+[class*="iconicfill-"]:before 
+{
+  font-family: 'IconicFill', sans-serif;
+  font-size: 20px;
+  color: #2B323A;
+}
+
+/* maki */
+[class*="maki-"]:before 
+{
+  font-family: 'maki', sans-serif;
+  font-size: 20px;
+  color: #2B323A;
+}
+
+
+/*Inicio do CSS*/
+
+i{
+  font-style: normal;
+}
+
+label , input
+{
+  display: inline-block;
+  width: 90%;
+  margin-bottom: 3%;
+}
+
+input
+{
+  padding: 6px 4px;
+  font-size: 16px;
+}
+body
+{
+  background-color: #2B323A;
+}
+.btn-danger
+{
+  border-radius: 45%;
+  /*margin: 3%;*/
+}
+
+.jumbotron
+{
+  background-color: white;
+  text-align: center;
+  border-radius: 5px;
+}
+
+#delegacia , #banheiro, #evento, #hospitais, #comida, #dormir, #pontosturi, #praia
+{
+  background-color: #FBF9EA;
+  padding: 16px;
+}
+
+#resultado
+{
+  border-top: solid 3px #2B323A;
+}
+
+#mapa
+{
+  background-color: white;
+  padding: 5px;
+}
+
+#map 
+{
+  height:400px;
+}
+
+#result
+{
+  border:2px dashed #F4A460;
+  border-radius:5px;
+  margin-bottom: 5px;
+}
+
+header{
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  border: 2px dashed #F4A460;
+}
+
+h1.panel-title{
+  font-size: 22px;
+}
+
+.bigthing{
+  font-size: 18px;
+}
+
+p{
+  font-size: 18px;
+}
