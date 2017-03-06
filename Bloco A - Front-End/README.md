@@ -42,6 +42,6 @@
 
 ### Objective: To help tourists to guide themselves in Rio de Janeiro.
 
-#### I dedicate to my friends, my family, my dog Jorge and my future husband. <3
+#### I dedicate to my friends, my family, my dog Jorge and my future husband.
 
 ##### The application is inside the "app" folder, and the documentation in the power point file "Projeto.pptx", it was used to present this work and show the documentation made during the block.
