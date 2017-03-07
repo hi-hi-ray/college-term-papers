@@ -24,7 +24,7 @@
 
 --------------------
 
-## Term Parper
+## Term Paper
 
 ### Collage: INFNET
 
