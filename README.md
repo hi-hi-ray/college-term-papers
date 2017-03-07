@@ -14,7 +14,7 @@
 
 ### List of Blocks Already Completed:
 
-* Block A: Front-End: star2:
-* Block B: Basic Computing: star2:
-* Block C: Java development: star2:
+* Block A: Front-End :star2:
+* Block B: Basic Computing :star2:
+* Block C: Java development :star2:
 
