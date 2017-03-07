@@ -1,0 +1,52 @@
+*{
+    margin: 0; 
+    padding: 0;
+}
+
+body{
+    background-color: #ddbb44;
+}
+section{
+    background-color: #ffffff;
+    border: cornsilk solid 1px;
+    margin-top: 0;
+    margin-bottom: 3%;
+}
+
+#header{
+    background-color: #ffffff;
+}
+
+#content-container{
+    background-color: #ffffff;
+    margin-top: 0;
+}
+
+.Logo-Text img{
+    height: 5%;
+    width: 5%;
+}
+
+.logo a{
+    margin-top: 5%;
+    color: black;
+    font-family: fantasy;
+    text-decoration: none; 
+}
+
+.logo a :hover{
+    color: black;
+    font-family: cursive;
+    text-decoration: none; 
+}
+
+.navbar {
+    border-bottom-color: white;
+    margin-bottom: 0 !important;
+}
+footer {
+    background-color: #ffffff;
+    border-top: cadetblue solid 1px;
+}
+
+
