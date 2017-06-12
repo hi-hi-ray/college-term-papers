@@ -14,7 +14,7 @@
 
 ### Data: 17 Out 2017
 
-### Linguagem: .Net com MVC, WebAPI
+### Linguagem: .Net com MVC/WebAPI
 
 ### Objetivo: Ajudar o usuário a se organizar, podendo gerenciar suas tarefas, as classificando, determinando um prazo para ela ser concluída e por final adicionar uma descrição para que ele saiba melhor o que ele tenha que ser feito. 
 
@@ -47,7 +47,7 @@ http://keepeverythingraysadutraconsumer.azurewebsites.net/
 
 ### Date: 17 Apr 2017
 
-### Language: .Net with MVC, WebAPI
+### Language: .Net with MVC/WebAPI
 
 ### Objective: Help the user to organize, being able to manage their tasks, classifying them, determining a deadline for it to be completed and finally adding a description so that it knows better what it has to be done.
 
