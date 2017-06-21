@@ -1,0 +1,72 @@
+﻿@model KeepEverything.RaysaDutra.Presentation.Models.TaskViewModel
+
+@{
+    ViewBag.Title = "Deletar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Deletar</h2>
+<h3>Você ceteza dessa ação?</h3>
+<div>
+    <h4>Tarefa</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Category.NameCategory)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Category.NameCategory)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NameTask)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NameTask)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DescriptionTask)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DescriptionTask)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CurrentSituationTask)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CurrentSituationTask)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CreatedDateTask)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CreatedDateTask)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EndedDateTask)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EndedDateTask)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Voltar para a Lista", "Index")
+        </div>
+    }
+</div>

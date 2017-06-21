@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="D:\Programação\Faculdade\C# E .NET\KeepEverything.RaysaDutra\KeepEverything.RaysaDutra.Solution\KeepEverything.RaysaDutra.MVC\obj\Debug\Package\PackageTmp" />
+  <setAcl path="D:\Programação\Faculdade\C# E .NET\KeepEverything.RaysaDutra\KeepEverything.RaysaDutra.Solution\KeepEverything.RaysaDutra.MVC\obj\Debug\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="D:\Programação\Faculdade\C# E .NET\KeepEverything.RaysaDutra\KeepEverything.RaysaDutra.Solution\KeepEverything.RaysaDutra.MVC\obj\Debug\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+</sitemanifest>

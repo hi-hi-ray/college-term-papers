@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="KeepEverythingEntitiesDB-Web.config Connection String" description="KeepEverythingEntitiesDB A Cadeia de Conexão usada em web.config pelo aplicativo para acessar o banco de dados." defaultValue="Data Source=(localdb)\MSSQLLocalDB; Initial Catalog=KeepEverythingEntitiesDBProd; Integrated Security=True; MultipleActiveResultSets=True;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\Programação\\Faculdade\\C\#\ E\ \.NET\\KeepEverything\.RaysaDutra\\KeepEverything\.RaysaDutra\.Solution\\KeepEverything\.RaysaDutra\.WebAPIService\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='KeepEverythingEntitiesDB']/@connectionString" />
+  </parameter>
+</parameters>

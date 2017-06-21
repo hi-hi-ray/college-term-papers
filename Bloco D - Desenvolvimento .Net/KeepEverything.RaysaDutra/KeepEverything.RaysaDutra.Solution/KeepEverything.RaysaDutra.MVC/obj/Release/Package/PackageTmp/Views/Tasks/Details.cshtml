@@ -1,0 +1,68 @@
+﻿@model KeepEverything.RaysaDutra.Presentation.Models.TaskViewModel
+
+@{
+    ViewBag.Title = "Detalhes";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Detalhes Tarefa</h2>
+<p>Não esqueça de checar as @Html.ActionLink("Regras", "Index", "Home")<p>
+
+    <div>
+        <h4>Tarefa</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Category.NameCategory)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Category.NameCategory)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.NameTask)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.NameTask)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.DescriptionTask)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.DescriptionTask)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.CurrentSituationTask)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.CurrentSituationTask)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.CreatedDateTask)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.CreatedDateTask)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.EndedDateTask)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.EndedDateTask)
+            </dd>
+
+        </dl>
+    </div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.IdTask }) |
+    @Html.ActionLink("Voltar para a Lista", "Index")
+</p>
