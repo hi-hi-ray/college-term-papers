@@ -44,4 +44,4 @@
 
 #### I dedicate to my friends, my family, my dog Jorge and my future husband.
 
-##### The application is inside the "ProjetoMeAjudaFrancisco" folder, the documentation is in the "Documentação" folder, the "Projeto.pdf" file, was used to present this work and show the documentation made during the block.
+##### The application is inside the "Alfred" folder, the documentation is in the "Documentação" folder, the "Projeto.pdf" file, was used to present this work and show the documentation made during the block.
