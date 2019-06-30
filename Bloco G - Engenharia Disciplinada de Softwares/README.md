@@ -32,7 +32,7 @@
 
 ### Class: Computer Engineering 6 (EDC-6)
 
-### Block F: Artificial Intelligence and Computer
+### Block F: Engineering Software Discipline
 
 ### Authors: Raysa Dutra, [Herik Tedesco](https://github.com/heriktedesco) e [Larissa Mourullo](https://github.com/larismourullo)
 
