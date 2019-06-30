@@ -1,4 +1,4 @@
-# Labyrinth Hunter
+﻿# Labyrinth Hunter
 
 ## Mini-TCC 
 
@@ -10,7 +10,7 @@
 
 ### Bloco F: Computação e Inteligência Artificial
 
-### Autora: Raysa Dutra e [Herik Tedesco](https://github.com/heriktedesco)
+### Autores: Raysa Dutra e [Herik Tedesco](https://github.com/heriktedesco)
 
 ### Data: 9 Abr 2018
 
@@ -47,7 +47,7 @@
 
 ### Block F: Artificial Intelligence and Computer
 
-### Author: Raysa Dutra e [Herik Tedesco](https://github.com/heriktedesco)
+### Authors: Raysa Dutra e [Herik Tedesco](https://github.com/heriktedesco)
 
 ### Date: 9 Apr 2018
 
