@@ -10,6 +10,8 @@
 * [Bloco D: Desenvolvimento .Net](https://github.com/hi-hi-ray/college-term-papers/tree/master/Bloco%20D%20-%20Desenvolvimento%20.Net) :star2:
 * [Bloco E: Desenvolvimento Android](https://github.com/hi-hi-ray/college-term-papers/tree/master/Bloco%20E%20-%20Desenvolvimento%20Android) :star2:
 * [Bloco F: Computação e Inteligência Artificial](https://github.com/hi-hi-ray/college-term-papers/tree/master/Bloco%20F%20-%20Computa%C3%A7%C3%A3o%20e%20Intelig%C3%AAncia%20Artificial) :star2:
+* [Bloco G: Engenharia Disciplinada de Softwares](https://github.com/hi-hi-ray/college-term-papers/tree/master/Bloco%20G%20-%20Engenharia%20Disciplinada%20de%20Softwares) :star2:
+* [Bloco H: Engenharia de Softwares Escaláveis](https://github.com/hi-hi-ray/college-term-papers/tree/master/Bloco%20H%20-%20Engenharia%20de%20Softwares%20Escal%C3%A1veis) :star2:
 
 ----------
 
@@ -23,3 +25,5 @@
 * [Block D: .Net Development](https://github.com/hi-hi-ray/college-term-papers/tree/master/Bloco%20D%20-%20Desenvolvimento%20.Net) :star2:
 * [Block E: Android Development](https://github.com/hi-hi-ray/college-term-papers/tree/master/Bloco%20E%20-%20Desenvolvimento%20Android) :star2:
 * [Block F: Artificial Intelligence and Computer](https://github.com/hi-hi-ray/college-term-papers/tree/master/Bloco%20F%20-%20Computa%C3%A7%C3%A3o%20e%20Intelig%C3%AAncia%20Artificial) :star2:
+* [Bloco G: Engineering Software Disciplined](https://github.com/hi-hi-ray/college-term-papers/tree/master/Bloco%20G%20-%20Engenharia%20Disciplinada%20de%20Softwares) :star2:
+* [Bloco H: Engineering of Scalable Software](https://github.com/hi-hi-ray/college-term-papers/tree/master/Bloco%20H%20-%20Engenharia%20de%20Softwares%20Escal%C3%A1veis) :star2:
