@@ -32,9 +32,9 @@
 
 ### Class: Computer Engineering 6 (EDC-6)
 
-### Block F: Engineering Software Discipline
+### Block G: Disciplined Software Engineering
 
-### Authors: Raysa Dutra, [Herik Tedesco](https://github.com/heriktedesco) e [Larissa Mourullo](https://github.com/larismourullo)
+### Authors: Raysa Dutra, [Herik Tedesco](https://github.com/heriktedesco) and [Larissa Mourullo](https://github.com/larismourullo)
 
 ### Data: 25 Set 2018
 
