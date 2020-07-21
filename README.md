@@ -29,6 +29,6 @@
 * [Block F: Artificial Intelligence and Computer](https://github.com/hi-hi-ray/college-term-papers/tree/master/Bloco%20F%20-%20Computa%C3%A7%C3%A3o%20e%20Intelig%C3%AAncia%20Artificial) :star2:
 * [Bloco G: Engineering Software Disciplined](https://github.com/hi-hi-ray/college-term-papers/tree/master/Bloco%20G%20-%20Engenharia%20Disciplinada%20de%20Softwares) :star2:
 * [Bloco H: Engineering of Scalable Software](https://github.com/hi-hi-ray/college-term-papers/tree/master/Bloco%20H%20-%20Engenharia%20de%20Softwares%20Escal%C3%A1veis) :star2:
-* [Block I: IOT Digital Systems - Internet of Things] (#)
-* [Block J: Digital Signal Processing] (#)
-* [Block K: Embedded Systems] (#)
+* [Block I: IOT Digital Systems - Internet of Things](#)
+* [Block J: Digital Signal Processing](#)
+* [Block K: Embedded Systems](#)
