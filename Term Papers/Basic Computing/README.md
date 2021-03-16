@@ -1,47 +1,24 @@
-# Visita Rio
+# About this project
 
-## Mini-TCC 
+![image with all the screens of the app.](https://github.com/hi-hi-ray/college-term-papers/blob/master/src/college-imgs-readme/Front-End.png)
 
-### Universidade: INFNET
+✩ **Name:** Visita Rio 
 
-### Curso: Engenharia da Computação com Enfase em Software.
+✩ **College:** Institute INFNET
 
-### Turma:  Engenharia da Computação 6 (EDC-6)
+✩ **Course:** Computer Engineering with Emphasis in Software.
 
-### Bloco A: Front-End 
+✩ **Class:** Computer Engineering 6 (EDC-6)
 
-### Autora: Raysa Dutra
+✩ **Block:** Basic Computing
 
-### Data: 7 Out 2015
+✩ **Author:** Raysa Dutra
 
-### Linguagem: Cordova / PhoneGap com HTML, CSS and Javascript / JQuery
+✩ **Conclusion date:** 5 Jun 2016
 
-### Objetivo: Ajudar turistas a se guiarem no Rio de Janeiro.
+✩ **Technologies:** Objetive-C 
 
-#### Dedico aos meus amigos, a minha família ao meu cachorro Jorge e ao meu futuro marido ruivo.
+✩ **Objective of the app:** The application has as main objective to be a tool for tourists to locate themselves. Offering a semi-static map for users to be able to locate themselves, it is possible for users to obtain information about hospitals, police stations, sights, beaches, where to eat, where to sleep, events and bathrooms. The user can have the fastest responses using a filter.
 
-##### O aplicativo está dentro da pasta "app", e a documentação no arquivo power point "Projeto.pptx", ele foi usado para apresentar esse trabalho e mostrar a documentação feita durante o bloco.
 
---------------------
-
-## Term Paper
-
-### Collage: INFNET
-
-### Course: Computer Engineering with Emphasis in Software.
-
-### Class: Computer Engineering 6 (EDC-6)
-
-### Block A: Front-End 
-
-### Author: Raysa Dutra
-
-### Date: 7 Oct 2015
-
-### Language: Cordova / PhoneGap with HTML, CSS and Javascript / JQuery
-
-### Objective: To help tourists to guide themselves in Rio de Janeiro.
-
-#### I dedicate to my friends, my family, my dog Jorge and my future husband.
-
-##### The application is inside the "app" folder, and the documentation in the power point file "Projeto.pptx", it was used to present this work and show the documentation made during the block.
+_The application is inside the "app" folder and the pdf file contains the texts and images of the document were taken from the slides of the presentation and previous micro-deliveries. This whole set was what constituted the note._
