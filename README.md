@@ -8,8 +8,8 @@ The teaching method and grades of my graduation, were divided into blocks focuse
 In order, follow each project that was concluded:
 
 
-* [Front-End](https://github.com/hi-hi-ray/college-term-papers/tree/master/Term%20Papers/Front-End) 
-* [Basic Computing](https://github.com/hi-hi-ray/college-term-papers/tree/master/Term%20Papers/Basic%20Computing) *
+* [Front-End](https://github.com/hi-hi-ray/college-term-papers/tree/master/Term%20Papers/Front-End)
+* [Basic Computation](https://github.com/hi-hi-ray/college-term-papers/tree/master/Term%20Papers/Basic%20Computation)
 * [Java Development](https://github.com/hi-hi-ray/college-term-papers/tree/master/Bloco%20C%20-%20Desenvolvimento%20Java) *
 * [.Net Development](https://github.com/hi-hi-ray/college-term-papers/tree/master/Bloco%20D%20-%20Desenvolvimento%20.Net) *
 * [Android Development](https://github.com/hi-hi-ray/college-term-papers/tree/master/Bloco%20E%20-%20Desenvolvimento%20Android) *
