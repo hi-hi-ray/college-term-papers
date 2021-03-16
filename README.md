@@ -1,34 +1,23 @@
-# College Term Papers :mortar_board:
+# College Term Papers 
 
-## Esse repositório tem como função guardar os mini-tcc's que a minha universidade exige a cada bloco.
+![image with animation in the computer screen, with the text college term papers and as a subtitle Final papers from college
+](https://github.com/hi-hi-ray/college-term-papers/blob/master/src/img/Readme%20Cover.gif)
 
-### Lista de Blocos já Concluídos:
+The teaching method and grades of my graduation, were divided into blocks focused on fields of engineering. Each block lasted six months and at the end of it we had to present these works in order to demonstrate knowledge.
 
-* [Bloco A: Front-End](https://github.com/hi-hi-ray/college-term-papers/tree/master/Bloco%20A%20-%20Front-End) :star2:
-* [Bloco B: Computação Básica](https://github.com/hi-hi-ray/college-term-papers/tree/master/Bloco%20B%20-%20Computa%C3%A7%C3%A3o%20B%C3%A1sica) :star2:
-* [Bloco C: Desenvolvimento Java](https://github.com/hi-hi-ray/college-term-papers/tree/master/Bloco%20C%20-%20Desenvolvimento%20Java) :star2:
-* [Bloco D: Desenvolvimento .Net](https://github.com/hi-hi-ray/college-term-papers/tree/master/Bloco%20D%20-%20Desenvolvimento%20.Net) :star2:
-* [Bloco E: Desenvolvimento Android](https://github.com/hi-hi-ray/college-term-papers/tree/master/Bloco%20E%20-%20Desenvolvimento%20Android) :star2:
-* [Bloco F: Computação e Inteligência Artificial](https://github.com/hi-hi-ray/college-term-papers/tree/master/Bloco%20F%20-%20Computa%C3%A7%C3%A3o%20e%20Intelig%C3%AAncia%20Artificial) :star2:
-* [Bloco G: Engenharia Disciplinada de Softwares](https://github.com/hi-hi-ray/college-term-papers/tree/master/Bloco%20G%20-%20Engenharia%20Disciplinada%20de%20Softwares) :star2:
-* [Bloco H: Engenharia de Softwares Escaláveis](https://github.com/hi-hi-ray/college-term-papers/tree/master/Bloco%20H%20-%20Engenharia%20de%20Softwares%20Escal%C3%A1veis) :star2:
-* [Bloco I: Sistemas Digitais IOT - Internet of Things](#)
-* [Bloco J: Processamento Digital de Sinais](#)
-* [Bloco K: Sistemas Embarcados](#)
-----------
+In order, follow each project that was concluded:
 
-## This repository has the function of saving the term papers that my university requires for each block.
 
-### List of Blocks Already Completed:
+* [Front-End](https://github.com/hi-hi-ray/college-term-papers/tree/master/Term%20Papers/Front-End) 
+* [Basic Computing](https://github.com/hi-hi-ray/college-term-papers/tree/master/Bloco%20B%20-%20Computa%C3%A7%C3%A3o%20B%C3%A1sica) 
+* [Java Development](https://github.com/hi-hi-ray/college-term-papers/tree/master/Bloco%20C%20-%20Desenvolvimento%20Java) 
+* [.Net Development](https://github.com/hi-hi-ray/college-term-papers/tree/master/Bloco%20D%20-%20Desenvolvimento%20.Net) 
+* [Android Development](https://github.com/hi-hi-ray/college-term-papers/tree/master/Bloco%20E%20-%20Desenvolvimento%20Android) 
+* [Artificial Intelligence and Computer](https://github.com/hi-hi-ray/college-term-papers/tree/master/Bloco%20F%20-%20Computa%C3%A7%C3%A3o%20e%20Intelig%C3%AAncia%20Artificial) 
+* [Engineering Software Disciplined](https://github.com/hi-hi-ray/college-term-papers/tree/master/Bloco%20G%20-%20Engenharia%20Disciplinada%20de%20Softwares) 
+* [Engineering of Scalable Software](https://github.com/hi-hi-ray/college-term-papers/tree/master/Bloco%20H%20-%20Engenharia%20de%20Softwares%20Escal%C3%A1veis) 
+* [IOT Digital Systems - Internet of Things](#)
+* [Digital Signal Processing](#)
+* [Embedded Systems](#)
 
-* [Block A: Front-End](https://github.com/hi-hi-ray/college-term-papers/tree/master/Bloco%20A%20-%20Front-End) :star2:
-* [Block B: Basic Computing](https://github.com/hi-hi-ray/college-term-papers/tree/master/Bloco%20B%20-%20Computa%C3%A7%C3%A3o%20B%C3%A1sica) :star2:
-* [Block C: Java Development](https://github.com/hi-hi-ray/college-term-papers/tree/master/Bloco%20C%20-%20Desenvolvimento%20Java) :star2:
-* [Block D: .Net Development](https://github.com/hi-hi-ray/college-term-papers/tree/master/Bloco%20D%20-%20Desenvolvimento%20.Net) :star2:
-* [Block E: Android Development](https://github.com/hi-hi-ray/college-term-papers/tree/master/Bloco%20E%20-%20Desenvolvimento%20Android) :star2:
-* [Block F: Artificial Intelligence and Computer](https://github.com/hi-hi-ray/college-term-papers/tree/master/Bloco%20F%20-%20Computa%C3%A7%C3%A3o%20e%20Intelig%C3%AAncia%20Artificial) :star2:
-* [Bloco G: Engineering Software Disciplined](https://github.com/hi-hi-ray/college-term-papers/tree/master/Bloco%20G%20-%20Engenharia%20Disciplinada%20de%20Softwares) :star2:
-* [Bloco H: Engineering of Scalable Software](https://github.com/hi-hi-ray/college-term-papers/tree/master/Bloco%20H%20-%20Engenharia%20de%20Softwares%20Escal%C3%A1veis) :star2:
-* [Block I: IOT Digital Systems - Internet of Things](#)
-* [Block J: Digital Signal Processing](#)
-* [Block K: Embedded Systems](#)
+
