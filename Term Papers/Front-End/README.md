@@ -18,7 +18,7 @@
 
 ✩ **Technologies:** Cordova / PhoneGap with HTML, CSS and Javascript / JQuery
 
-✩ **Objective of the app:** Help tourists to guide themselves in Rio de Janeiro.
+✩ **Objective of the app:** The application has as main objective to be a tool for tourists to locate themselves. Offering a semi-static map for users to be able to locate themselves, it is possible for users to obtain information about hospitals, police stations, sights, beaches, where to eat, where to sleep, events and bathrooms. The user can have the fastest responses using a filter.
 
 
-_The application is inside the "app" folder, and the documentation in the power point file "Projeto.pptx", it was used to present this work and show the documentation made during the block._
+_The application is inside the "app" folder and the pdf file contains the texts and images of the document were taken from the slides of the presentation and previous micro-deliveries. This whole set was what constituted the note._

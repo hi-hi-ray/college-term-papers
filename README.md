@@ -9,7 +9,7 @@ In order, follow each project that was concluded:
 
 
 * [Front-End](https://github.com/hi-hi-ray/college-term-papers/tree/master/Term%20Papers/Front-End) 
-* [Basic Computing](https://github.com/hi-hi-ray/college-term-papers/tree/master/Bloco%20B%20-%20Computa%C3%A7%C3%A3o%20B%C3%A1sica) 
+* [Basic Computing](https://github.com/hi-hi-ray/college-term-papers/tree/master/Term%20Papers/Basic%20Computing) 
 * [Java Development](https://github.com/hi-hi-ray/college-term-papers/tree/master/Bloco%20C%20-%20Desenvolvimento%20Java) 
 * [.Net Development](https://github.com/hi-hi-ray/college-term-papers/tree/master/Bloco%20D%20-%20Desenvolvimento%20.Net) 
 * [Android Development](https://github.com/hi-hi-ray/college-term-papers/tree/master/Bloco%20E%20-%20Desenvolvimento%20Android) 
@@ -20,4 +20,4 @@ In order, follow each project that was concluded:
 * [Digital Signal Processing](#)
 * [Embedded Systems](#)
 
-
+Para ver todos os textos em Português cheque a [wiki](https://github.com/hi-hi-ray/college-term-papers/wiki)
