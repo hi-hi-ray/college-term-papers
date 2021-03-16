@@ -1,0 +1,27 @@
+﻿@model KeepEverything.RaysaDutra.Presentation.Models.TagViewModel
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Tag</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NameTag)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NameTag)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.IdTag }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

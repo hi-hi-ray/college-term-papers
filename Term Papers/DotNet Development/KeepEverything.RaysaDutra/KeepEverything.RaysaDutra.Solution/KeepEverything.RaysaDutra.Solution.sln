@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeepEverything.RaysaDutra.WebAPIService", "KeepEverything.RaysaDutra.WebAPIService\KeepEverything.RaysaDutra.WebAPIService.csproj", "{BD4C652D-863D-478C-902E-821B39A26404}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Presentation", "1-Presentation", "{73D177DC-E27A-4CCD-A098-A60F57478557}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Service", "2-Service", "{F3646B74-F5AC-4523-B8F2-9A8AA2812080}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Domain", "4-Domain", "{90FD92E9-616A-4D3C-8BDE-672E64D72FAD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5-Infra", "5-Infra", "{099D2FF9-CB54-4033-95CA-84BC474E1A30}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.1-Data", "5.1-Data", "{8F027466-9A89-4C4B-84D5-4E531B6BBA87}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.2-CrossCutting", "5.2-CrossCutting", "{64127A17-9206-4A47-9548-F785B29C6CD2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.2.1-IoC", "5.2.1-IoC", "{BBE79050-A741-42B4-86C8-AC92CD429779}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.2.2-SecurityIdentity", "5.2.2-SecurityIdentity", "{5AF62026-3EDE-4015-A9C8-8600253C7398}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeepEverything.RaysaDutra.Domain", "KeepEverything.RaysaDutra.Domain\KeepEverything.RaysaDutra.Domain.csproj", "{21346744-0F19-4B72-BE74-58127DD30968}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeepEverything.RaysaDutra.Infra", "KeepEverything.RaysaDutra.Infra\KeepEverything.RaysaDutra.Infra.csproj", "{AE500EDF-F038-4F81-9B89-72106EE4D44F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeepEverything.RaysaDutra.IoC", "KeepEverything.RaysaDutra.IoC\KeepEverything.RaysaDutra.IoC.csproj", "{D052378B-ACC5-4810-A162-2B76B95E5AAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeepEverything.RaysaDutra.MVC", "KeepEverything.RaysaDutra.MVC\KeepEverything.RaysaDutra.MVC.csproj", "{43B91CA7-49C3-484C-8360-994EF3DDEE06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeepEverything.RaysaDutra.SecurityIdentity", "KeepEverything.RaysaDutra.SecurityIdentity\KeepEverything.RaysaDutra.SecurityIdentity.csproj", "{6A9572FE-038B-4BA1-B053-7CDB25A05D27}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD4C652D-863D-478C-902E-821B39A26404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD4C652D-863D-478C-902E-821B39A26404}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD4C652D-863D-478C-902E-821B39A26404}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD4C652D-863D-478C-902E-821B39A26404}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21346744-0F19-4B72-BE74-58127DD30968}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21346744-0F19-4B72-BE74-58127DD30968}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21346744-0F19-4B72-BE74-58127DD30968}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21346744-0F19-4B72-BE74-58127DD30968}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE500EDF-F038-4F81-9B89-72106EE4D44F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE500EDF-F038-4F81-9B89-72106EE4D44F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE500EDF-F038-4F81-9B89-72106EE4D44F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE500EDF-F038-4F81-9B89-72106EE4D44F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D052378B-ACC5-4810-A162-2B76B95E5AAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D052378B-ACC5-4810-A162-2B76B95E5AAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D052378B-ACC5-4810-A162-2B76B95E5AAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D052378B-ACC5-4810-A162-2B76B95E5AAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43B91CA7-49C3-484C-8360-994EF3DDEE06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43B91CA7-49C3-484C-8360-994EF3DDEE06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43B91CA7-49C3-484C-8360-994EF3DDEE06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43B91CA7-49C3-484C-8360-994EF3DDEE06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A9572FE-038B-4BA1-B053-7CDB25A05D27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A9572FE-038B-4BA1-B053-7CDB25A05D27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A9572FE-038B-4BA1-B053-7CDB25A05D27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A9572FE-038B-4BA1-B053-7CDB25A05D27}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BD4C652D-863D-478C-902E-821B39A26404} = {F3646B74-F5AC-4523-B8F2-9A8AA2812080}
+		{8F027466-9A89-4C4B-84D5-4E531B6BBA87} = {099D2FF9-CB54-4033-95CA-84BC474E1A30}
+		{64127A17-9206-4A47-9548-F785B29C6CD2} = {099D2FF9-CB54-4033-95CA-84BC474E1A30}
+		{BBE79050-A741-42B4-86C8-AC92CD429779} = {64127A17-9206-4A47-9548-F785B29C6CD2}
+		{5AF62026-3EDE-4015-A9C8-8600253C7398} = {64127A17-9206-4A47-9548-F785B29C6CD2}
+		{21346744-0F19-4B72-BE74-58127DD30968} = {90FD92E9-616A-4D3C-8BDE-672E64D72FAD}
+		{AE500EDF-F038-4F81-9B89-72106EE4D44F} = {8F027466-9A89-4C4B-84D5-4E531B6BBA87}
+		{D052378B-ACC5-4810-A162-2B76B95E5AAE} = {BBE79050-A741-42B4-86C8-AC92CD429779}
+		{43B91CA7-49C3-484C-8360-994EF3DDEE06} = {73D177DC-E27A-4CCD-A098-A60F57478557}
+		{6A9572FE-038B-4BA1-B053-7CDB25A05D27} = {5AF62026-3EDE-4015-A9C8-8600253C7398}
+	EndGlobalSection
+EndGlobal

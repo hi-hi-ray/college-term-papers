@@ -1,8 +1,0 @@
-D:\Programação\Faculdade\C# E .NET\KeepEverything.RaysaDutra.Solution\KeepEverything.RaysaDutra.Domain\bin\Debug\KeepEverything.RaysaDutra.Domain.dll
-D:\Programação\Faculdade\C# E .NET\KeepEverything.RaysaDutra.Solution\KeepEverything.RaysaDutra.Domain\bin\Debug\KeepEverything.RaysaDutra.Domain.pdb
-D:\Programação\Faculdade\C# E .NET\KeepEverything.RaysaDutra.Solution\KeepEverything.RaysaDutra.Domain\obj\Debug\KeepEverything.RaysaDutra.Domain.dll
-D:\Programação\Faculdade\C# E .NET\KeepEverything.RaysaDutra.Solution\KeepEverything.RaysaDutra.Domain\obj\Debug\KeepEverything.RaysaDutra.Domain.pdb
-D:\Programação\Faculdade\C# E .NET\KeepEverything.RaysaDutra\KeepEverything.RaysaDutra.Solution\KeepEverything.RaysaDutra.Domain\bin\Debug\KeepEverything.RaysaDutra.Domain.dll
-D:\Programação\Faculdade\C# E .NET\KeepEverything.RaysaDutra\KeepEverything.RaysaDutra.Solution\KeepEverything.RaysaDutra.Domain\bin\Debug\KeepEverything.RaysaDutra.Domain.pdb
-D:\Programação\Faculdade\C# E .NET\KeepEverything.RaysaDutra\KeepEverything.RaysaDutra.Solution\KeepEverything.RaysaDutra.Domain\obj\Debug\KeepEverything.RaysaDutra.Domain.dll
-D:\Programação\Faculdade\C# E .NET\KeepEverything.RaysaDutra\KeepEverything.RaysaDutra.Solution\KeepEverything.RaysaDutra.Domain\obj\Debug\KeepEverything.RaysaDutra.Domain.pdb
