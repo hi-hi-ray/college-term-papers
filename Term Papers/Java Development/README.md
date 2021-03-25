@@ -1,6 +1,6 @@
 # About this project
 
-![image with the inspiration of the project.](https://github.com/hi-hi-ray/college-term-papers/blob/master/src/college-imgs-readme/Java%20Development.PNG)
+![image of the project.](https://github.com/hi-hi-ray/college-term-papers/blob/master/src/college-imgs-readme/Java%20Development.PNG)
 
 ✩ **Name:** Ajuda Francisco
 
@@ -14,7 +14,7 @@
 
 ✩ **Authors:** Raysa Dutra
 
-✩ **Conclusion date:** 30 Set 2016
+✩ **Conclusion date:** 30 Sep 2016
 
 ✩ **Technologies:** Java with Spring MVC
 
