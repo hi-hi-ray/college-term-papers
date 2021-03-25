@@ -21,4 +21,4 @@
 ✩ **Objective of the app:** Helping abandoned or possibly injured animals, rescued animals find a home, listing institutions that help those animals that need donation and help the protectors or anyone who wants to help an animal. Protectors of animals, people who wish to help an animal or some intuition and adopt an animal.
 
 
-_The application is inside the "ProjetoMeAjudaFrancisco" folder and there are two pdf files, the first one it's "Apresentação" and this was the slide presentation. The second pdf file "Documentação do projeto.pdf"_
+_The application is inside the "ProjetoMeAjudaFrancisco" folder and there are two pdf files, the first one it's "Apresentação" and this was the slide presentation. The second pdf file "Documentação do projeto.pdf" it was the basic documentation_
