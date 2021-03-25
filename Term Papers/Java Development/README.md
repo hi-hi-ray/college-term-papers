@@ -12,7 +12,7 @@
 
 ✩ **Block:** Java Development
 
-✩ **Authors:** Raysa Dutra
+✩ **Author:** Raysa Dutra
 
 ✩ **Conclusion date:** 30 Sep 2016
 
