@@ -2,7 +2,7 @@
 
 ![image with the inspiration of the project.](https://github.com/hi-hi-ray/college-term-papers/blob/master/src/college-imgs-readme/Java%20Development.PNG)
 
-✩ **Name:** Visita Rio 
+✩ **Name:** Ajuda Francisco
 
 ✩ **College:** Institute INFNET
 
